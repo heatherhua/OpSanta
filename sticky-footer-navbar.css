@@ -1,0 +1,15 @@
+/* Navbar transparency
+-----------------------------------------------*/
+a,
+a:hover {
+  color: #ffffff;
+}
+.bg {
+  height: 2400px;
+  background: url('background-1.jpg') top center;
+  }
+.navbar {
+    background-color: transparent;
+    background: transparent;
+  }
+
