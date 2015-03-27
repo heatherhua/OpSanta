@@ -6,7 +6,7 @@ a:hover {
 }
 .bg {
   height: 2400px;
-  background: url('images/background-1.jpg') top center;
+  background: url('../images/background-1.jpg') top center;
   }
 .navbar {
     background-color: transparent;
