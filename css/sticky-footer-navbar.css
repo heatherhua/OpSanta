@@ -8,6 +8,16 @@ a:hover {
   height: 2400px;
   background: url('../images/background-1.jpg') top center;
   }
+  
+.middle_title {
+	margin-top: 20%;
+	color: #ffffff;
+}
+
+.list_names {
+	color: #ffffd8;
+}
+
 .navbar {
     background-color: transparent;
     background: transparent;
