@@ -37,13 +37,34 @@ html,body
   background-color: #E8E8E8;
 }
 
+/* About Us
+----------------------------------------------*/
+.about {
+  margin-top: 7%;
+  color: #ffffff;
+  font-family:'Roboto Slab';
+}
+.tabcol {
+  color: #ffffff;
+}
+.thetitles {
+	font-family:'Roboto Slab';
+}
+.tab-content {
+  color: #ffffff;
+  font-family:'Roboto Slab';
+}
+.apolinks {
+  color: #D4D4D4;
+}
+
+
 /* Navbar transparency
 -----------------------------------------------*/
 .navbar {
     background-color: transparent;
     background: transparent;
     font-family:'Roboto Slab';
-    padding-right: 10px;
 }
 
 /* Announcements bar
