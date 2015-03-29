@@ -1,37 +1,35 @@
 /* Background image
 ----------------------------------------------*/
-html,body
-{
-    width: auto;
-    height: auto;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-}
-
-.bg {
-  height: 2400px;
-  width: auto;
-  background: url('../images/background-1.jpg') top center;
+html,body { 
+  background: url('../images/background-1.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 
 /* Special Thanks
 ----------------------------------------------*/
 .middle_title {
-	margin-top: 20%;
-	color: #ffffff;
+  margin-top: 20%;
+  color: #ffffff;
+  font-family:'Lobster';
 }
 
 .list_names {
-	color: #ffffd8;
+  color: #ffffd8;
+  font-family:'Roboto Slab';
 }
 
 /* FAQ
 ----------------------------------------------*/
+.faq {
+	padding-bottom: 30px;
+}
 .nominators {
-	margin-top: 7%;
-	color: #3CB371;
+  padding-top: 40px;
+  color: #3CB371;
 }
 .panel-default > .panel-heading {
   background-color: #E8E8E8;
@@ -58,8 +56,25 @@ html,body
   color: #D4D4D4;
 }
 
-/* Gallery
+/* Archives
 ----------------------------------------------*/
+.testimonials {
+  margin-top: 125px;
+  margin-left: 3%;
+  height: 700px;
+  background-color:#E3E3E3;
+  overflow:auto;
+  border: 1px single #171717;
+  font-family:'Roboto Slab';
+}
+
+.name {
+	font-weight: bold;
+}
+.media {
+	margin-top: 125px;
+	margin-left: 3%;
+}
 
 /* Navbar transparency
 -----------------------------------------------*/
