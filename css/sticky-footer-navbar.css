@@ -58,6 +58,8 @@ html,body
   color: #D4D4D4;
 }
 
+/* Gallery
+----------------------------------------------*/
 
 /* Navbar transparency
 -----------------------------------------------*/
@@ -71,7 +73,7 @@ html,body
 ----------------------------------------------*/
 .title{
 	height:75px;
-	background-color:#FFF5EE;
+	background-color:#E3E3E3;
 	line-height:60px;
 	font-weight:bold;
 	text-align:center;
@@ -85,7 +87,7 @@ html,body
 	height:75px;
 	line-height:1.5em;
 	text-align:center;
-	background-color:#FFF5EE;
+	background-color:#E3E3E3;
 	overflow:auto;
 	border-bottom:5px double #171717;
 	border-top:5px double #171717;
