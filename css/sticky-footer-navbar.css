@@ -76,6 +76,12 @@ html,body {
 	margin-left: 3%;
 }
 
+/* Contact Us
+----------------------------------------------*/
+.form {
+	margin-top: 70px;
+	text-align: center;
+}
 /* Navbar transparency
 -----------------------------------------------*/
 .navbar {
