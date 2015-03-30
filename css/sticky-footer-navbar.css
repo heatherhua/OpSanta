@@ -12,9 +12,9 @@ html,body {
 /* Special Thanks
 ----------------------------------------------*/
 .middle_title {
-  margin-top: 20%;
+  margin-top: 150px;
   color: #ffffff;
-  font-family:'Lobster';
+  font-family: 'Poiret One';
 }
 
 .list_names {
@@ -88,6 +88,13 @@ html,body {
     background-color: transparent;
     background: transparent;
     font-family:'Roboto Slab';
+    border-bottom: 0px;
+    border-top: 0px;
+}
+.navbar .navbar-brand {
+  color: #FF6A6A;
+  font-size: 30pt;
+  font-family: 'Lobster';
 }
 
 /* Announcements bar
@@ -99,6 +106,7 @@ html,body {
 	font-weight:bold;
 	text-align:center;
 	font-size:large;
+  overflow: auto;
 	border-bottom:5px double #171717;
 	border-top:5px double #171717;
 	font-family:'Roboto Slab';
@@ -117,16 +125,14 @@ html,body {
 
 /* Nominate, Adopt, Donate buttons 
 ----------------------------------------------*/
-h2 {
-	font-family: 'Lobster';
-}
-
+ 
 .nominate {
 	text-align:center;
-	margin-top:15%;
+	margin-top:50px;
 	margin-left:3.5%;
 	border:1px solid #ddd;
 	height:300px;
+  min-width: 190px;
 	background-color: #3CB371;
 	-webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
@@ -137,26 +143,49 @@ h2 {
 
 .donate-adopt {
 	text-align:center;
-	margin-top:15%;
+	margin-top:50px;
 	border:1px solid #ddd;
-	height:300px;
+	height:300px; 
+  min-width: 190px;
 	-webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
     transition: all 1s ease;
 }
-
-/*.changeable span
+.icons {
+  font-size:100px;
+  line-height: 200px;
+  color:#ffffff;
+}
+.buttons_title {
+  color: #ffffff;
+  line-height: 200px;
+  
+  font-family: 'Poiret One';
+}
+.nominate span
 {
   display:none;
 }
-
-.changeable:hover span
+.nominate:hover h1 {
+  display: none;
+}
+.nominate:hover span
 {
   display:inline-block;
 }
-*/
+.donate-adopt span
+{
+  display:none;
+}
+.donate-adopt:hover h1 {
+  display: none;
+}
+.donate-adopt:hover span
+{
+  display:inline-block;
+}
 .changeable,
 .changeable:hover {
   color: #ffffff;
