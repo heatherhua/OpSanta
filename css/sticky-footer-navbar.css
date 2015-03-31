@@ -1,7 +1,7 @@
 /* Background image
 ----------------------------------------------*/
 html,body { 
-  background: url('../images/background-1.jpg') no-repeat center center fixed; 
+  background: url('../images/Santa02.jpg') no-repeat center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,9 +12,10 @@ html,body {
 /* Special Thanks
 ----------------------------------------------*/
 .middle_title {
-  margin-top: 150px;
+  margin-top: 100px;
   color: #ffffff;
   font-family: 'Poiret One';
+  font-weight: bold;
 }
 
 .list_names {
@@ -29,51 +30,72 @@ html,body {
 }
 .nominators {
   padding-top: 40px;
-  color: #3CB371;
+  color: #008B00;
 }
 .panel-default > .panel-heading {
-  background-color: #E8E8E8;
+  background-color: #E0E0E0;
 }
 
 /* About Us
 ----------------------------------------------*/
 .about {
   margin-top: 7%;
-  color: #ffffff;
+  color: #006400;
   font-family:'Roboto Slab';
 }
 .tabcol {
-  color: #ffffff;
+  color: #000000;
 }
 .thetitles {
 	font-family:'Roboto Slab';
 }
+.thetitles .nav-tabs .active .tabcol {
+  background-color:#F5F5F5;
+}
 .tab-content {
-  color: #ffffff;
+  color: #000000;
   font-family:'Roboto Slab';
+  background-color:#F5F5F5;
+  padding-left: 7px;
+  padding-bottom: 7px;
 }
 .apolinks {
-  color: #D4D4D4;
+  color: #2B2B2B;
+}
+
+/* Gallery
+----------------------------------------------*/
+.carousel-inner {
+  max-height: 500px;
+  padding-left: 60px;
 }
 
 /* Archives
 ----------------------------------------------*/
 .testimonials {
-  margin-top: 125px;
+  margin-top: 60px;
   margin-left: 3%;
   height: 700px;
   background-color:#E3E3E3;
   overflow:auto;
   border: 1px single #171717;
   font-family:'Roboto Slab';
+  max-height: 650px; 
 }
-
 .name {
 	font-weight: bold;
 }
+.media .nav-tabs .active .tabcol {
+  background-color:#F5F5F5;
+}
 .media {
-	margin-top: 125px;
+	margin-top: 60px;
 	margin-left: 3%;
+}
+.media-tabs{
+ /* min-width: 505px;*/
+  overflow: auto;
+  max-height: 600px;
 }
 
 /* Contact Us
@@ -85,42 +107,56 @@ html,body {
 /* Navbar transparency
 -----------------------------------------------*/
 .navbar {
-    background-color: transparent;
-    background: transparent;
-    font-family:'Roboto Slab';
-    border-bottom: 0px;
-    border-top: 0px;
+  background-color: transparent;
+  background: transparent;
+  font-family:'Roboto Slab';
+  font-weight: 500;
+  /*font-size: 12pt;*/
+  border-bottom: 0px;
+  border-top: 0px;
 }
-.navbar .navbar-brand {
-  color: #FF6A6A;
+.navbar .pull-left {
+  color: #FF0000;
   font-size: 30pt;
   font-family: 'Lobster';
+}
+.navbar .pull-left:hover {
+  color: #EE2C2C;
+  text-decoration: none;
+}
+.navbar .nav > li > a {
+  color: #191970;
+}
+.navbar .nav > li > a:hover {
+  color: #104E8B;
 }
 
 /* Announcements bar
 ----------------------------------------------*/
 .title{
-	height:75px;
-	background-color:#E3E3E3;
-	line-height:60px;
+	height:80px;
+	background-color:#F5F5DC;
+	line-height:70px;
 	font-weight:bold;
 	text-align:center;
-	font-size:large;
+	font-size: x-large;
   overflow: auto;
 	border-bottom:5px double #171717;
 	border-top:5px double #171717;
-	font-family:'Roboto Slab';
+	font-family:'Poiret One';
 }
 
 .messages {
-	height:75px;
+	height:80px;
 	line-height:1.5em;
 	text-align:center;
-	background-color:#E3E3E3;
+	background-color:#F5F5DC;
 	overflow:auto;
 	border-bottom:5px double #171717;
 	border-top:5px double #171717;
-	font-family:'Roboto Slab';
+	font-family:'Poiret One';
+  font-size: 13pt;
+  font-weight: 600;
 }
 
 /* Nominate, Adopt, Donate buttons 
@@ -130,28 +166,51 @@ html,body {
 	text-align:center;
 	margin-top:50px;
 	margin-left:3.5%;
-	border:1px solid #ddd;
+	border:1px solid #E0E0E0;
 	height:300px;
   min-width: 190px;
-	background-color: #3CB371;
+	background: -webkit-radial-gradient(#00FF7F, #00CD66); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#00FF7F, #00CD66); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(#00FF7F, #00CD66); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#00FF7F, #37BC61); /* Standard syntax */
 	-webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
+  -moz-transition: all 1s ease;
 	-o-transition: all 1s ease;
 	-ms-transition: all 1s ease;
-    transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-.donate-adopt {
+.adopt {
 	text-align:center;
 	margin-top:50px;
-	border:1px solid #ddd;
+	border:1px solid #E0E0E0;
 	height:300px; 
   min-width: 190px;
+  background: -webkit-radial-gradient(#3CB371,#00EE76, #43CD80); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#3CB371, #43CD80, #2E8B57); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(#3CB371, #43CD80, #2E8B57); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#FF3030, #CD2626); /* Standard syntax */
 	-webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.donate {
+  text-align:center;
+  margin-top:50px;
+  border:1px solid #E0E0E0;
+  height:300px; 
+  min-width: 190px;
+  background: -webkit-radial-gradient(#00FF7F, #00CD66); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#00FF7F, #00CD66); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(#00FF7F, #00CD66); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#00FF7F, #37BC61); /* Standard syntax */
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
 }
 .icons {
   font-size:100px;
@@ -161,8 +220,8 @@ html,body {
 .buttons_title {
   color: #ffffff;
   line-height: 200px;
-  
   font-family: 'Poiret One';
+  font-weight: bold;
 }
 .nominate span
 {
@@ -175,14 +234,25 @@ html,body {
 {
   display:inline-block;
 }
-.donate-adopt span
+.donate span
 {
   display:none;
 }
-.donate-adopt:hover h1 {
+.donate:hover h1 {
   display: none;
 }
-.donate-adopt:hover span
+.donate:hover span
+{
+  display:inline-block;
+}
+.adopt span
+{
+  display:none;
+}
+.adopt:hover h1 {
+  display: none;
+}
+.adopt:hover span
 {
   display:inline-block;
 }
@@ -192,11 +262,15 @@ html,body {
   text-decoration: none;
 }
 .nominate:hover {
-  border: 30px solid #000;
+  border: 30px solid #3B3B3B;
   border-radius: 50%;
 }
 
-.donate-adopt:hover {
-  border: 30px solid #000;
+.donate:hover {
+  border: 30px solid #3B3B3B;
+  border-radius: 50%;
+}
+.adopt:hover {
+  border: 30px solid #3B3B3B;
   border-radius: 50%;
 }
