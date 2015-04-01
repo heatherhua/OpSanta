@@ -12,15 +12,19 @@ html,body {
 /* Special Thanks
 ----------------------------------------------*/
 .middle_title {
-  margin-top: 100px;
-  color: #ffffff;
+  margin-top: 70px;
+  color: #4169E1;
   font-family: 'Poiret One';
-  font-weight: bold;
+  font-weight: 1000;
 }
 
 .list_names {
-  color: #ffffd8;
+  color: #4682B4;
+  font-size: 12pt;
   font-family:'Roboto Slab';
+  background-color: #F5F5F5;
+  border:3px double #171717;
+  line-height: 25px;
 }
 
 /* FAQ
@@ -39,7 +43,7 @@ html,body {
 /* About Us
 ----------------------------------------------*/
 .about {
-  margin-top: 7%;
+  margin-top: 70px;
   color: #006400;
   font-family:'Roboto Slab';
 }
@@ -75,7 +79,7 @@ html,body {
 .testimonials {
   margin-top: 60px;
   margin-left: 3%;
-  height: 700px;
+  height: 600px;
   background-color:#E3E3E3;
   overflow:auto;
   border: 1px single #171717;
@@ -87,6 +91,7 @@ html,body {
 }
 .media .nav-tabs .active .tabcol {
   background-color:#F5F5F5;
+  font-family:'Roboto Slab';
 }
 .media {
 	margin-top: 60px;
@@ -109,9 +114,9 @@ html,body {
 .navbar {
   background-color: transparent;
   background: transparent;
-  font-family:'Roboto Slab';
-  font-weight: 500;
-  /*font-size: 12pt;*/
+  font-family:'Lora';
+  font-weight: 600;
+  font-size: 12pt;
   border-bottom: 0px;
   border-top: 0px;
 }
@@ -124,8 +129,11 @@ html,body {
   color: #EE2C2C;
   text-decoration: none;
 }
+.navbar .nav {
+  padding-right:15px;
+}
 .navbar .nav > li > a {
-  color: #191970;
+  color: #171717;
 }
 .navbar .nav > li > a:hover {
   color: #104E8B;
@@ -136,7 +144,7 @@ html,body {
 .title{
 	height:80px;
 	background-color:#F5F5DC;
-	line-height:70px;
+	line-height:65px;
 	font-weight:bold;
 	text-align:center;
 	font-size: x-large;
@@ -167,7 +175,7 @@ html,body {
 	margin-top:50px;
 	margin-left:3.5%;
 	border:1px solid #E0E0E0;
-	height:300px;
+	height:250px;
   min-width: 190px;
 	background: -webkit-radial-gradient(#00FF7F, #00CD66); /* Safari 5.1 to 6.0 */
   background: -o-radial-gradient(#00FF7F, #00CD66); /* For Opera 11.6 to 12.0 */
@@ -184,7 +192,7 @@ html,body {
 	text-align:center;
 	margin-top:50px;
 	border:1px solid #E0E0E0;
-	height:300px; 
+	height:250px; 
   min-width: 190px;
   background: -webkit-radial-gradient(#3CB371,#00EE76, #43CD80); /* Safari 5.1 to 6.0 */
   background: -o-radial-gradient(#3CB371, #43CD80, #2E8B57); /* For Opera 11.6 to 12.0 */
@@ -200,7 +208,7 @@ html,body {
   text-align:center;
   margin-top:50px;
   border:1px solid #E0E0E0;
-  height:300px; 
+  height:250px; 
   min-width: 190px;
   background: -webkit-radial-gradient(#00FF7F, #00CD66); /* Safari 5.1 to 6.0 */
   background: -o-radial-gradient(#00FF7F, #00CD66); /* For Opera 11.6 to 12.0 */
@@ -220,7 +228,7 @@ html,body {
 .buttons_title {
   color: #ffffff;
   line-height: 200px;
-  font-family: 'Poiret One';
+  font-family: 'Lobster';
   font-weight: bold;
 }
 .nominate span
