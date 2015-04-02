@@ -145,16 +145,19 @@ html,body {
 ----------------------------------------------*/
 .ribbon {
   position: relative;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
 /*    background: url("../images/ribbon_burned.png") no-repeat center;*/
-    min-height: 125px;
 }
-.message {
-  position: absolute;
-  top:10px;
-  color: #ffffff;
-  font-family: "Roboto Slab";
 
+.ribbon h5 {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  color: #FFF;
+  font-family: "Roboto Slab";
 }
 
 .inside {
