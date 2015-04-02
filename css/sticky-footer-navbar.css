@@ -13,7 +13,7 @@ html,body {
 ----------------------------------------------*/
 .middle_title {
   margin-top: 70px;
-  color: #4169E1;
+  color: #2F4F4F;
   font-family: 'Roboto Slab';
   font-weight: bold;
 }
@@ -58,7 +58,6 @@ html,body {
   margin-left: auto;
   margin-right: auto;
 }
-
 .thetitles .nav-tabs .active .tabcol {
   background-color:#F5F5F5;
   font-weight: 900;
@@ -81,8 +80,11 @@ html,body {
 /* Gallery
 ----------------------------------------------*/
 .carousel-inner {
-  max-height: 500px;
+  height: 400px;
   padding-left: 60px;
+}
+.item {
+  height: 400px;
 }
 
 /* Archives
@@ -102,14 +104,16 @@ html,body {
 }
 .media .nav-tabs .active .tabcol {
   background-color:#F5F5F5;
-  font-family:'Roboto Slab';
+  font-weight: bold;
+  color:#000000;
+  font-size: 11pt;
 }
 .media {
 	margin-top: 60px;
 	margin-left: 3%;
+  font-family:'Roboto Slab';
 }
 .media-tabs{
- /* min-width: 505px;*/
   overflow: auto;
   max-height: 600px;
 }
@@ -120,6 +124,7 @@ html,body {
 	margin-top: 70px;
 	text-align: center;
 }
+
 /* Navbar transparency
 -----------------------------------------------*/
 .navbar {
