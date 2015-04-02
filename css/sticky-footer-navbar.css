@@ -34,7 +34,7 @@ html,body {
 .faq {
 	padding-bottom: 30px;
 }
-.nominators {
+.nominators, .adopters, .donors {
   padding-top: 40px;
   color: #008B00;
 }
@@ -147,7 +147,7 @@ html,body {
   position: relative;
   text-align: center;
 /*    background: url("../images/ribbon_burned.png") no-repeat center;*/
-    min-height: 125px;
+  min-height: 125px;
 }
 .message {
   position: absolute;
