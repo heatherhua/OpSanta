@@ -8,65 +8,68 @@ html,body {
   background-size: cover;
 }
 
-
 /* Special Thanks
 ----------------------------------------------*/
+.st {
+  font-family: 'Roboto Slab';
+  text-align: center;
+}
 .middle_title {
   margin-top: 70px;
-  color: #2F4F4F;
-  font-family: 'Roboto Slab';
+  color: #006400;
   font-weight: bold;
 }
-
 .list_names {
-  color: #4682B4;
   font-size: 12pt;
-  font-family:'Roboto Slab';
+  line-height: 25px;
   background-color: #F5F5F5;
   border:3px double #171717;
-  line-height: 25px;
   padding-bottom: 5px;
   padding-top: 5px;
+}
+.attribute {
+  color: #000000;
 }
 
 /* FAQ
 ----------------------------------------------*/
 .faq {
-	padding-bottom: 30px;
+  font-family:'Roboto Slab';
 }
 .nominators, .adopters, .donors {
   padding-top: 40px;
   color: #008B00;
 }
 .panel-default > .panel-heading {
-  background-color: #E0E0E0;
+  background-color: #EBEBEB;
 }
 
 /* About Us
 ----------------------------------------------*/
+.about-us {
+  font-family:'Roboto Slab';
+}
 .about {
   margin-top: 70px;
   color: #006400;
-  font-family:'Roboto Slab';
+  text-align: center;
 }
 .tabcol {
   color: #000000;
+  font-size: 12pt;
 }
-.thetitles {
-	font-family:'Roboto Slab';
+.theinfo .nav-tabs .active .tabcol {
+  font-weight: 900;
+  background-color:#F5F5F5;
+  color:#000000;
+}
+.theinfo {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
-.thetitles .nav-tabs .active .tabcol {
-  background-color:#F5F5F5;
-  font-weight: 900;
-  color:#000000;
-  font-size: 12pt;
-}
 .tab-content {
   color: #000000;
-  font-family:'Roboto Slab';
   background-color:#F5F5F5;
   padding-left: 15px;
   padding-bottom: 7px;
@@ -83,9 +86,6 @@ html,body {
   height: 400px;
   padding-left: 60px;
 }
-.item {
-  height: 400px;
-}
 
 /* Archives
 ----------------------------------------------*/
@@ -93,20 +93,18 @@ html,body {
   margin-top: 60px;
   margin-left: 3%;
   height: 600px;
-  background-color:#E3E3E3;
-  overflow:auto;
-  border: 1px single #171717;
-  font-family:'Roboto Slab';
   max-height: 650px; 
+  background-color:#F5F5F5;
+  overflow:auto;
+  font-family:'Roboto Slab';
 }
 .name {
 	font-weight: bold;
 }
 .media .nav-tabs .active .tabcol {
   background-color:#F5F5F5;
-  font-weight: bold;
+  font-weight: 900;
   color:#000000;
-  font-size: 11pt;
 }
 .media {
 	margin-top: 60px;
@@ -116,6 +114,7 @@ html,body {
 .media-tabs{
   overflow: auto;
   max-height: 600px;
+  background-color:#F5F5F5;
 }
 
 /* Contact Us
@@ -163,7 +162,6 @@ html,body {
   margin-left: auto;
   text-align: center;
 }
-
 .ribbon h5 {
   position: absolute;
   top: 10%;
@@ -172,15 +170,13 @@ html,body {
   color: #FFF;
   font-family: "Roboto Slab";
 }
-
 .inside {
   position: absolute;
   text-align: center;
   color: #ffffff;
   font-family: "Roboto Slab";
 }
-  
-.title{
+/*.title{
 	height:80px;
 	background-color:#F5F5DC;
 	line-height:65px;
@@ -192,7 +188,6 @@ html,body {
 	border-top:5px double #171717;
 	font-family:'Poiret One';
 }
-
 .messages {
 	height:80px;
 	line-height:1.5em;
@@ -204,11 +199,10 @@ html,body {
 	font-family:'Poiret One';
   font-size: 13pt;
   font-weight: 600;
-}
+}*/
 
 /* Nominate, Adopt, Donate buttons 
 ----------------------------------------------*/
- 
 .nominate {
 	text-align:center;
 	margin-top:50px;
@@ -219,14 +213,13 @@ html,body {
 	background: -webkit-radial-gradient(#00FF7F, #00CD66); /* Safari 5.1 to 6.0 */
   background: -o-radial-gradient(#00FF7F, #00CD66); /* For Opera 11.6 to 12.0 */
   background: -moz-radial-gradient(#00FF7F, #00CD66); /* For Firefox 3.6 to 15 */
-  background: radial-gradient(#00FF7F, #37BC61); /* Standard syntax */
+  background: radial-gradient(#00CD66, #008B45); /* Standard syntax */
 	-webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
 	-o-transition: all 1s ease;
 	-ms-transition: all 1s ease;
   transition: all 1s ease;
 }
-
 .adopt {
 	text-align:center;
 	margin-top:50px;
@@ -236,7 +229,7 @@ html,body {
   background: -webkit-radial-gradient(#3CB371,#00EE76, #43CD80); /* Safari 5.1 to 6.0 */
   background: -o-radial-gradient(#3CB371, #43CD80, #2E8B57); /* For Opera 11.6 to 12.0 */
   background: -moz-radial-gradient(#3CB371, #43CD80, #2E8B57); /* For Firefox 3.6 to 15 */
-  background: radial-gradient(#FF3030, #CD2626); /* Standard syntax */
+  background: radial-gradient(#00CD66, #008B45); /* Standard syntax */
 	-webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -252,7 +245,7 @@ html,body {
   background: -webkit-radial-gradient(#00FF7F, #00CD66); /* Safari 5.1 to 6.0 */
   background: -o-radial-gradient(#00FF7F, #00CD66); /* For Opera 11.6 to 12.0 */
   background: -moz-radial-gradient(#00FF7F, #00CD66); /* For Firefox 3.6 to 15 */
-  background: radial-gradient(#00FF7F, #37BC61); /* Standard syntax */
+  background: radial-gradient(#00CD66, #008B45); /* Standard syntax */
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -312,7 +305,6 @@ html,body {
   border: 30px solid #3B3B3B;
   border-radius: 50%;
 }
-
 .donate:hover {
   border: 30px solid #3B3B3B;
   border-radius: 50%;
