@@ -61,14 +61,18 @@ html,body {
 
 .thetitles .nav-tabs .active .tabcol {
   background-color:#F5F5F5;
+  font-weight: 900;
+  color:#000000;
+  font-size: 12pt;
 }
 .tab-content {
   color: #000000;
   font-family:'Roboto Slab';
   background-color:#F5F5F5;
-  padding-left: 7px;
+  padding-left: 15px;
   padding-bottom: 7px;
   padding-right: 7px;
+  padding-top: 15px;
 }
 .apolinks {
   color: #2B2B2B;
