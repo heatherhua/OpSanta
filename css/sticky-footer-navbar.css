@@ -15,7 +15,7 @@ html,body {
   margin-top: 70px;
   color: #4169E1;
   font-family: 'Roboto Slab';
-  font-weight: 1000;
+  font-weight: bold;
 }
 
 .list_names {
@@ -143,6 +143,27 @@ html,body {
 
 /* Announcements bar
 ----------------------------------------------*/
+.ribbon {
+  position: relative;
+  text-align: center;
+/*    background: url("../images/ribbon_burned.png") no-repeat center;*/
+    min-height: 125px;
+}
+.message {
+  position: absolute;
+  top:10px;
+  color: #ffffff;
+  font-family: "Roboto Slab";
+
+}
+
+.inside {
+  position: absolute;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Roboto Slab";
+}
+  
 .title{
 	height:80px;
 	background-color:#F5F5DC;
