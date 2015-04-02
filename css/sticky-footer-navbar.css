@@ -34,7 +34,7 @@ html,body {
 .faq {
 	padding-bottom: 30px;
 }
-.nominators {
+.nominators, .adopters, .donors {
   padding-top: 40px;
   color: #008B00;
 }
@@ -148,7 +148,6 @@ html,body {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-/*    background: url("../images/ribbon_burned.png") no-repeat center;*/
 }
 
 .ribbon h5 {
